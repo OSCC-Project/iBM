@@ -17,8 +17,8 @@ The dataset generation is briefly shown in <a href="#fig_d3_dataset">Fig. 1</a>.
 ## Download the dataset ##
 
 ```shell
-wget https://ieda.oscc.cc/res/images/activities/conference/first-GBA-EDA/fig1.png
-unzip name.zip
+wget https://www.jianguoyun.com/p/De81uBYQvsDYDBi7gsoFIAA
+unzip dataset.zip
 ```
 
 ## Dataset Description ##

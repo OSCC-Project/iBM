@@ -18,6 +18,13 @@ The dataset generation is briefly shown in <a href="#fig_d3_dataset">Fig. 1</a>.
 
 Please download manually by [Nutstore](https://www.jianguoyun.com/p/De81uBYQvsDYDBi7gsoFIAA) and unzip **dataset.zip**.
 
+or
+
+```shell
+wget url_is_updating
+unzip dataset.zip
+```
+
 ## Dataset Description ##
 
 ### Directory Descriptions ###

@@ -14,6 +14,13 @@ The dataset generation is briefly shown in <a href="#fig_d3_dataset">Fig. 1</a>.
   </center>
 </div>
 
+## Download the dataset ##
+
+```shell
+wget https://ieda.oscc.cc/res/images/activities/conference/first-GBA-EDA/fig1.png
+unzip name.zip
+```
+
 ## Dataset Description ##
 
 ### Directory Descriptions ###
@@ -21,25 +28,20 @@ The dataset generation is briefly shown in <a href="#fig_d3_dataset">Fig. 1</a>.
 The complete directory structure is as follows:
 
 ```txt
-.
-├── dataset
-│   ├── pc
-│   ├── pc_annotation_coupling_test_clean.csv
-│   ├── pc_annotation_coupling_test.csv
-│   ├── pc_annotation_coupling_train_clean.csv
-│   ├── pc_annotation_coupling_train.csv
-│   ├── pc_annotation.csv
-│   ├── pc_annotation_total_test_clean.csv
-│   ├── pc_annotation_total_test.csv
-│   ├── pc_annotation_total_train_clean.csv
-│   └── pc_annotation_total_train.csv
-├── imgs
-│   └── d3_dataset.png
-├── LICENSE
-└── README.md
+dataset
+├── pc
+├── pc_annotation_coupling_test_clean.csv
+├── pc_annotation_coupling_test.csv
+├── pc_annotation_coupling_train_clean.csv
+├── pc_annotation_coupling_train.csv
+├── pc_annotation.csv
+├── pc_annotation_total_test_clean.csv
+├── pc_annotation_total_test.csv
+├── pc_annotation_total_train_clean.csv
+└── pc_annotation_total_train.csv
 ```
 
-The directory **./dataset/pc** contains all information of the point cloud.
+The directory **dataset/pc** contains all information of the point cloud.
 
 ### File descriptions ###
 - **pc_annotation.csv** - records some information from the original **3D Capacitance Sample** of the point cloud  
